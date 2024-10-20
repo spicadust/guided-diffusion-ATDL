@@ -8,9 +8,10 @@ packages = [
     { include = "guided_diffusion" },
 ]
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "3.9.20"
 blobfile = ">=1.0.5"
 fastai = "^2.7.18"
+mpi4py = "*"
 notebook = "^7.2.2"
 python-dotenv = "*"
 torch = "*"
