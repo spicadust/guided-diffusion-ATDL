@@ -6,3 +6,5 @@ classify_image_graph_def.pb
 *.egg-info
 dist
 *.npz
+checkpoints/
+samples/

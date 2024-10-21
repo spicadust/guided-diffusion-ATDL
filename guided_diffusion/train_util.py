@@ -238,7 +238,10 @@ class TrainLoop:
                     filename = f"model{(self.step+self.resume_step):06d}.pt"
                 else:
                     filename = f"ema_{rate}_{(self.step+self.resume_step):06d}.pt"
-                with bf.BlobFile(bf.join(get_blob_logdir(), filename), "wb") as f:
+                # with bf.BlobFile(bf.join(get_blob_logdir(), filename), "wb") as f:
+                #     th.save(state_dict, f)
+                file_path = f'./checkpoints/{filename}'
+                with open(file_path, "wb") as f:
                     th.save(state_dict, f)
 
         save_checkpoint(0, self.mp_trainer.master_params)
