@@ -10,6 +10,7 @@ Replicate a subset of the experiments presented in the paper, including:
 
 ## Scripts we added
 `model.py` and `model_lsun.py`: for printing the architecture and number of parameters of the models
+
 `sample.ipynb`: for showing the sample images generated through our trained models
 
 ## Diffusion on windows
