@@ -9,3 +9,4 @@ dist
 checkpoints/
 samples/
 imagenet64/
+*.pt
