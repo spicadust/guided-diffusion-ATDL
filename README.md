@@ -1,3 +1,11 @@
+# guided-diffusion-ATDL
+
+Course project reproducing ADM diffusion experiments on ImageNet and LSUN, with evaluation using FID/sFID, precision, and recall.
+
+This repository was developed as a course project based on OpenAI's guided-diffusion codebase. My work focused on reproducing selected experiments from the ADM diffusion model paper and evaluating the generated results.
+
+---
+
 # guided-diffusion
 
 This is the codebase for [Diffusion Models Beat GANS on Image Synthesis](http://arxiv.org/abs/2105.05233).
